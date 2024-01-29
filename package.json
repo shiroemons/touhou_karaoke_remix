@@ -11,6 +11,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@algolia/requester-fetch": "^4.22.1",
     "@radix-ui/react-slot": "^1.0.2",
     "@remix-run/css-bundle": "^2.5.1",
     "@remix-run/node": "^2.5.1",
@@ -19,11 +20,13 @@
     "algoliasearch": "^4.22.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "instantsearch.js": "^4.64.1",
     "isbot": "^4.1.0",
     "lucide-react": "^0.315.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-instantsearch": "^7.5.3",
+    "react-instantsearch-dom": "^6.40.4",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -31,6 +34,7 @@
     "@remix-run/dev": "^2.5.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
+    "@types/react-instantsearch-dom": "^6.12.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.38.0",
