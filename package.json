@@ -26,7 +26,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-instantsearch": "^7.5.3",
-    "react-instantsearch-dom": "^6.40.4",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -34,7 +33,6 @@
     "@remix-run/dev": "^2.5.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
-    "@types/react-instantsearch-dom": "^6.12.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.38.0",
