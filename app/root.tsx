@@ -10,9 +10,11 @@ import {
 } from "@remix-run/react";
 
 import styles from "~/styles/tailwind.css"
+import algoliaStyles from "instantsearch.css/themes/algolia-min.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: algoliaStyles },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
