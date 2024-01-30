@@ -76,8 +76,6 @@ export default function DamPage() {
   const { serverState, serverUrl } = useLoaderData() as SearchProps;
 
   return (
-    <main>
-      <Search serverState={serverState} serverUrl={serverUrl} />
-    </main>
+    <Search serverState={serverState} serverUrl={serverUrl} />
   );
 }

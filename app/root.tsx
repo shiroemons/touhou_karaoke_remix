@@ -46,7 +46,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <div className="container mx-auto px-4">
+          <Outlet />
+        </div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
